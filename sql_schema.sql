@@ -50,17 +50,17 @@ CREATE TABLE crashes (
 
 COPY crashes
 FROM
-'C:\Users\Jaime\Desktop\git-repo\chicago_traffic_crashes\csv\chicago_traffic_crashes_part_1.csv'
+'C:\Users\s30kr\Satish_s30\SQL\self-project\Chicago Traffic Crashes\csv1'
 DELIMITER ',' CSV HEADER;
 
 COPY crashes
 FROM
-'C:\Users\Jaime\Desktop\git-repo\chicago_traffic_crashes\csv\chicago_traffic_crashes_part_2.csv'
+'C:\Users\s30kr\Satish_s30\SQL\self-project\Chicago Traffic Crashes\csv2'
 DELIMITER ',' CSV HEADER;
 
 COPY crashes
 FROM
-'C:\Users\Jaime\Desktop\git-repo\chicago_traffic_crashes\csv\chicago_traffic_crashes_part_3.csv'
+'C:\Users\s30kr\Satish_s30\SQL\self-project\Chicago Traffic Crashes\csv3'
 DELIMITER ',' CSV HEADER;
 
 -- Test the record count
