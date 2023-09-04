@@ -46,7 +46,7 @@ CREATE TABLE crashes (
 	crash_location varchar(75)
 );
 
--- Import csv from wheverever you have it stored.  Note the delimiter.
+-- Import csv.
 
 COPY crashes
 FROM
